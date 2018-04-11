@@ -1,0 +1,144 @@
+/*h1{
+	font-family: 'Gloria Hallelujah', cursive;
+	color: black;
+	font-size: 500%;
+	margin-bottom: 0px;
+}*/
+
+a{
+	text-decoration: none;
+	text-decoration-color: none;
+}
+
+body{
+	margin:0;
+	background-color: blanchedalmond;
+}
+
+.navitem{
+	/*margin-bottom: 0px;*/
+	padding: 5px;
+	font-family: 'Gugi', cursive;
+	/*text-decoration: none;*/
+}
+
+.dropmenu{
+	padding: 5px;
+	/*border: 1px solid black;*/
+	background-color: rgba(255,255,255,0.5);
+}
+
+.parentbox-menu{
+	display: flex;
+	justify-content: space-around;
+	position: fixed;
+	background-color: rgba(255,255,255,0);
+	height: 30px;
+	margin:0;
+	width: 100%;
+}
+
+.parentaboutus{
+	display:none;
+}
+
+#aboutus:hover .parentaboutus{
+	display: block;
+}
+
+.parentgallery{
+	display: none;
+}
+
+#gallery:hover .parentgallery{
+	display: block;
+}
+
+.parenttrip{
+	display: none;
+}
+#trip:hover .parenttrip{
+	display: block;
+}
+
+.parentjoinus{
+	display: none;
+}
+	
+#joinus:hover .parentjoinus{
+	display: block;
+}
+
+.section1{
+	/*background-color: plum;*/
+	font-size: 100px;
+	padding:60px;
+	box-sizing: border-box;
+	margin:0;
+	text-align: center;
+	font-family: 'Gloria Hallelujah', cursive;
+	background-image: url(https://s32.postimg.org/igky8w31x/giphy.gif);
+	/*width:100%;*/
+	/*border-width: 100%;*/
+	background-size:cover;
+	height: 600px;
+}
+
+.section2{
+	background-color: white;
+}
+
+#ourmission{
+	background-color: white;
+	color:deepskyblue;
+	padding: 70px 25px 30px;
+	text-align: center;
+	font-family: Arial;
+	/*font-weight: bold;*/
+	font-size: 20px;
+	margin:0;
+	/*height: 300px;*/
+}
+
+#alllocal{
+	text-align: center;
+	margin:10px 0px 25px;
+	padding:0px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.image{
+	width:200px;
+	height:200px;
+	border-radius: 100px;
+	margin:10px 50px;
+}
+
+.thingstodo{
+	display:flex;
+	justify-content: center;
+	background-color: white;
+}
+
+.picexplain{
+	text-align: center;
+	background-color: white;
+	padding-bottom: 20px;
+	font-family: Arial;
+}
+
+.section3{
+	/*background-image: url(http://www.sekinchan.org/images/sekinchan-paddy-field-view-from-sky.jpg);
+	background-size: cover;*/
+	height: 400px;
+}
+
+.section3{
+	height: 400px;
+	/*background-color: plum;*/
+	background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/08/a9/a1/fc/sekinchan-paddy-fields.jpg);
+	opacity: 0.5;
+	background-repeat: no-repeat;
+}
