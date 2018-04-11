@@ -102,7 +102,7 @@ body{
 
 #alllocal{
 	text-align: center;
-	margin:10px 0px 25px;
+	margin:10px 0px 35px;
 	padding:0px;
 	font-family: Arial;
 	font-weight: bold;
@@ -125,20 +125,114 @@ body{
 .picexplain{
 	text-align: center;
 	background-color: white;
-	padding-bottom: 20px;
+	padding-top: 25px;
+	padding-bottom: 90px;
 	font-family: Arial;
 }
 
-.section3{
-	/*background-image: url(http://www.sekinchan.org/images/sekinchan-paddy-field-view-from-sky.jpg);
-	background-size: cover;*/
+/*.section3{
+	background-image: url(http://www.sekinchan.org/images/sekinchan-paddy-field-view-from-sky.jpg);
+	background-size: cover;
 	height: 400px;
 }
-
+*/
 .section3{
-	height: 400px;
+	height: 700px;
 	/*background-color: plum;*/
 	background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/08/a9/a1/fc/sekinchan-paddy-fields.jpg);
-	opacity: 0.5;
+	/*opacity: 0.7;*/
 	background-repeat: no-repeat;
+		/*from .section1*/
+	font-size: 50px;
+	padding:300px 50px;
+	box-sizing: border-box;
+	margin-top:10;
+	text-align: center;
+	font-family: 'Arial', cursive;
+	/*width:100%;*/
+	/*border-width: 100%;*/
+	background-size:cover;
+/*	z-index: */
+position: relative;
+
+}
+
+/*#imagesection3{
+	opacity: 0.5;
+	width:100%;
+}*/
+
+.chooseyourtour{
+	background-color: rgba(255,255,255,0.4);
+/*	margin:0;
+	padding: 0;*/
+	width:100%;
+	height:700px;
+	/*opacity: 0.7;*/
+	z-index: 1;
+	/*top:0;*/
+	top: 0;
+	left: 0;
+	position: absolute;
+	display: table-cell;
+	vertical-align: middle;
+	padding: 300px 5px;
+	box-sizing: border-box;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+/*#meet{
+	text-align: center;
+	margin:10px 0px 35px;
+	padding:0px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 25px;
+	color: teal;
+	background-color: white;
+}
+}*/
+#meetourpeople{
+	text-align: center;
+	padding-top:50px;
+	font-family: 'Gamja Flower', cursive;
+	font-size: 50px;
+	background-color: white;
+	margin:0;
+}
+
+#magic{
+	text-align: center;
+	/*margin:10px 0px 35px;*/
+	padding:0px;
+	font-family: 'Gamja Flower', cursive;
+	font-weight: bold;
+	font-size: 30px;
+	margin:0;
+}
+
+.peopleimage{
+	width:200px;
+	height:200px;
+	border-radius: 80px;
+	margin:10px 50px;
+}
+
+.peopleexplain{
+	text-align: center;
+	background-color: white;
+	padding-top: 25px;
+	padding-bottom: 90px;
+	font-family: Arial;
+}
+
+.section5{
+	display: flex;
+	justify-content: space-around;
+	background-color:#eeeeee;
+}
+
+.section6{
+	height: 350px;
+	background-color: white;
 }
