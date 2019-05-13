@@ -76,12 +76,12 @@ body{
 	box-sizing: border-box;
 	margin:0;
 	text-align: center;
-	/*-----may 19-------font-family: 'Gloria Hallelujah', cursive;
-	/*-----may 19-------background-image: url(https://s32.postimg.org/igky8w31x/giphy.gif);
+	font-family: 'Gloria Hallelujah', cursive;
+	background-image: url(https://s32.postimg.org/igky8w31x/giphy.gif);
 	/*width:100%;*/
 	/*border-width: 100%;*/
 	background-size:cover;
-	/*-----may 19-------height: 600px;
+	height: 600px;
 }
 
 .section2{
